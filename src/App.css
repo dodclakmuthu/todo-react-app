@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-content {
+  width: 50%;
+  max-width: 600px;
+  min-height: 500px;
+  margin: 50px auto;
+  border-radius: 20px;
+  padding: 20px;
+  background: #454620;
+}
+
+.new-todo-container {
+  width: 100%;
+}
+
+.new-todo-container input {
+  width: calc(100% - 75px);
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  border-radius: 10px 0 0 10px;
+  background: #DDE7C7;
+  font-weight: 900;
+}
+
+.new-todo-container button {
+  width: 75px;
+  height: 40px;
+  border: 5px;
+  border-left: none;
+  background: #98C9A3;
+  color: #EDEEC9;
+  border-radius: 0 10px 10px 0;
+  font-weight: 900;
+}
+
+.new-todo-container button:hover{
+  cursor: pointer;
+}
+
+.todos-container{
+  width: 100%;
+  margin-top: 25px;
+}
+
+.todo{
+  background: #DDE7C7;
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 0 10px;
+  line-height: 40px;
+  font-weight: 900;
+  position: relative;
+}
+
+.todo p{
+  overflow: hidden;
+  width: calc(100% - 70px);
+}
+
+.todo svg {
+  position: absolute;
+  right:10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 40px;
+}
